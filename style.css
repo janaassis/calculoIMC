@@ -1,0 +1,82 @@
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(72, 51, 100);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(205, 50, 133);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    color: aqua;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.input:hover{
+    background-color: pink;
+}
+
+.input label {
+    font: bold 1.5rem serif;
+    color: yellow;
+}
+
+button {
+   width: 300px;
+   height: 50px; 
+   border-radius: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: orangered;
+    background-color: aquamarine;
+
+}
+
+.leitura {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(64, 124, 176);
+    border-radius: 10px;
+}
+
+.leitura-imc:hover {
+    background-color: yellow;
+}
+
+#calcular {
+    font: bold;
+
+}
+
+.title:hover{
+    color: red;
+}
